@@ -15,7 +15,7 @@ export default function AddRemoveColor({action, text}) {
   return (
     <button
     onClick={handleClick}
-    className="mr-1 border border-slate-400 rounded min-w-[40px]"
+    className="mr-1 border bg-gray-900 hover:bg-gray-800 border-slate-400 rounded min-w-[40px]"
     >
         {text}
     </button>
