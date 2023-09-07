@@ -30,10 +30,10 @@ function App() {
         <p>Pick and change color position</p>
         <SelectColor />
 
-        <p>Color position</p>
+        <p className="mb-4">Color position</p>
         <RangeColorPosition />
 
-        <p>Gradient global angle</p>
+        <p className="mb-4">Gradient global angle</p>
         <RangeAngle />
 
         <OpenModalBtn />
